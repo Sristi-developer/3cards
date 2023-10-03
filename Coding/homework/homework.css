@@ -1,0 +1,14 @@
+h1{
+    border: 5px solid rgb(206, 129, 13);
+    border-left: 5px solid rgb(202, 202, 202);
+    border-right: 5px solid rgb(24, 24, 170);
+    border-bottom: 5px solid rgb(17, 139, 17);
+    border-radius: 1000px;
+}
+
+
+.red{
+    width: 900px;
+    height: 900px;
+    border: 2rem solid red;
+}

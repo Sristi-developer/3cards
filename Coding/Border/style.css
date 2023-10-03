@@ -1,0 +1,18 @@
+p{
+    border: 1px solid brown ;
+}
+
+h1{
+    border: 5px solid rgb(206, 129, 13);
+    border-left: 5px solid rgb(49, 49, 131);
+    border-right: 5px solid rgb(0, 165, 22);
+    border-radius: 1000px;
+}
+
+.circle{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(155, 65, 140);
+    border-radius: 50%;
+    border: 10px solid rgb(255, 0, 255);
+}

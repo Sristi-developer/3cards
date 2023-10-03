@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: burlywood;
+    overflow-x: scroll;
+    padding: 10px;
+}
+
+.head{
+    text-align: center;
+    text-transform: capitalize;
+    color: cadetblue;
+}
+
+.head:hover{
+    color: brown;
+    cursor: grab;
+}
+
+.bold{
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: large;
+    line-height: 20px;
+    padding-top: 20px;
+}

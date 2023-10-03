@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container{
+    background: #000;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+.BOX1{
+    display: flex;
+    justify-content: space-between;
+}
+.BOX2{
+    display: flex;
+    justify-content: space-between;
+    
+}

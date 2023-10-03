@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 300px;
+    width: 700px;
+    background-color: pink;
+    border-radius: 20px;
+    padding: 30px;
+    overflow-x: scroll;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: purple;
+}
+
+h1:hover{
+    color: black;
+    cursor: grab;
+}
+
+p{
+    text-transform: capitalize;
+    color: maroon;
+    letter-spacing: 2px;
+    font-size: large;
+    line-height: 1.6;
+    padding-top: 10px;
+}
